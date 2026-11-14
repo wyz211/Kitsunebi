@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "name": "builtin-fangfeng",
+  "ruleSource": "assets",
+  "ruleFile": "builtin/rule.txt",
+  "allowUserCustomConfig": false,
+  "allowUserImportConfig": false,
+  "allowUserRuleEdit": false,
+  "downloadEndpoint": "https://[CONFIG_SERVER_HOST]/builtin/config.json",
+  "publicKey": "[ED25519_PUBLIC_KEY_BASE64]",
+  "updateCheck": { "enabled": true, "intervalHours": 24, "signatureRequired": true }
+}
